@@ -13,6 +13,10 @@ get "/" do
   "hello world"
 end
 
+get "/canary" do
+  "hello canary"
+end
+
 get "/status" do
   content_type :json
   {
